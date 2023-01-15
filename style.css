@@ -1,0 +1,59 @@
+.maket{
+    display: grid;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.header{
+    min-height: 95px;
+background-color: cadetblue;
+text-align: center;
+padding: 25px;
+}
+
+
+.main{
+  display: grid; 
+  grid-template-columns: 60% 40%; 
+  /* grid-template-rows: auto auto; */
+}
+.main_content{
+    min-height: 315px;
+    background-color: bisque;
+    display: grid;
+      text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+.main_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   
+}
+.content{
+    min-height: 60px;
+    background-color: orange;
+    text-align: center;
+    padding: 25px 10px 10px 10px;
+         }
+.aside{
+    min-height: 315px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 26px 10px 10px 10px;
+}
+.footer{
+    min-height: 95px;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 15px;
+      
+}
+.section{
+    min-height: 40px;
+    background-color: white;
+   padding: 35px 10px 10px 80px;
+}
